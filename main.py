@@ -2,6 +2,7 @@ import sys
 import math
 from PIL import Image
 
+# This script is an open-source tool for converting images to normal maps in the CLI.
 def main():
     if len(sys.argv) < 3:
         print("Usage: python generate_normal_map.py <input.png> <output.png>")
